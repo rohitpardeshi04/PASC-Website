@@ -18,6 +18,9 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,19 +29,29 @@
         <img class="home_logo" src="img/logo.png" alt="">
     </div>
     <section class="abtSection" id="abtSection">
-        <span class="abtimg"><img class="" src="img/about-img.png" alt="about image"></span>
-        <div class="container-fluid">
+        <span class="abtimg"><div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/about-img.png" alt="about image"></div></span>
+        <div class="container-fluid" data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
                 <div class="col-md-6 hdAndText">
                     <h1 class="h1text" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">PASC</h1>
                     <div class="yellow_line"></div>
-                    <p style="transform: translate3d(0px, 0px, 0px); opacity: 1;">A highly specialized Management team
-                        PICT ACM student chapter (PASC) was established in 2011 with a view of fostering technical and
+                    <p style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+                        PICT ACM Student Chapter (PASC) was established in 2011 with a view of fostering technical and
                         non-technical qualities in an individual and helping them to shape their destiny. PASC started
                         off with 4 founding members and in such a short period, PASC has grown to a big student chapter
                         of nearly more than 300 ACM members. Appreciating our endeavour, PASC is awarded as BEST ACM
                         STUDENT CHAPTER in India, on February 2018.</p>
-
+                        <!-- <div class="a"><a href="about-us" class="pg_btn">About Us</a></div> -->
+                        <div class="row">
+                            <div class="col-12">
+                        <button class="btn abt_btn learn-more">
+                                <span class="circle">
+                                  <span class="icon arrow"></span>
+                                </span>
+                                <a href="#" class="button-text" style="text-decoration: none;">About Us</a>
+                              </button>
+                              </div>
+                              </div>
                 </div>
             </div>
         </div>
@@ -49,9 +62,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="abtimg"><img class="" src="img/acmlogo.png" alt="about image"></div></div>
+                    <div class="abtimg"><div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/acmlogo.png" alt="about image"></div></div></div>
 
-                <div class="col-md-8     hdAndText">
+                <div class="col-md-8     hdAndText"  data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="h1text" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">About ACM</h1>
                     <div class="yellow_line"></div>
                     <p style="transform: translate3d(0px, 0px, 0px); opacity: 1;">Founded by Richard Hamming in 1947,
@@ -61,7 +74,19 @@
                         through strong leadership, promotion of the highest standards, and recognition of technical
                         excellence. ACM supports the professional growth of its members by providing opportunities for
                         life‐long learning, career development, and professional networking.</p>
-
+                        <button class="btn abt_btn learn-more">
+                                <span class="circle">
+                                  <span class="icon arrow"></span>
+                                </span>
+                                <a href="#" class="button-text" style="text-decoration: none;">ACM</a>
+                              </button>
+                              <div class="tabspace" style="display: inline;"> </div>
+                              <button class="btn abt_btn learn-more">
+                                    <span class="circle">
+                                      <span class="icon arrow"></span>
+                                    </span>
+                                    <a href="#" class="button-text" style="text-decoration: none;">ACM India</a>
+                                  </button>
                 </div>
             </div>
         </div>
@@ -76,9 +101,12 @@
     <script>
         setTimeout(function () {
             $(".home_logo").css({ "top": "0%", "left": "10%", "width": "10%", "transform": "translate(0%, 0%)" });
-            $(".home_content").fadeIn();
+            // $(".home_content").fadeIn();
 
         }, 3000);
+    </script>
+    <script>
+            AOS.init();
     </script>
 </body>
 
