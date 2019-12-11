@@ -1,0 +1,261 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+body, html {
+    font-family: "Open Sans",sans-serif;
+}
+
+/* @custom-media --viewport-4 (min-width: 480px);
+@custom-media --viewport-7 (min-width: 768px);
+@custom-media --viewport-9 (min-width: 992px);
+@custom-media --viewport-12 (min-width: 1200px); */
+
+
+
+.first_view{
+    min-height: 100vh;
+    background-color: #fff;;
+}
+
+.home_logo{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation: logo_top 4s ease-in-out;
+}
+
+@keyframes logo_top{
+    0%{
+        width: 60%;
+        top: 50%;
+        left: 50%;
+    }
+    
+    100%{
+        top: 0%;
+        left: 10%;
+        width: 10%;
+        transform: translate(0%, 0%);
+    }
+}
+
+/* about section  */
+
+.abtSection {
+    padding-top: 150px;
+    padding-bottom: 175px;
+    position: relative
+}
+
+.hdAndText{
+    padding-left: 100px; 
+}
+
+.hdAndText .h1text {
+    font-size: 5vw;
+    color: #003a78;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 700;
+    /* margin-bottom: 50px */
+}
+
+.hdAndText p {
+    font-size: 1.5rem;
+    color: #363636;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin-bottom: 50px;    
+    max-width: 100%;
+    
+}
+
+.yellow_line{
+    content: "";
+    position: relative;
+    bottom: 0px;
+    top: -1%;
+    left: 0;
+    right: 0px;
+    height: 5px;
+    width: 7%;
+    background-color: rgb(253, 184, 17);
+    z-index: 1;
+    margin-bottom: 5%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.abtSection .abtimg {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+
+.abtSection .abtimg img {
+    width: 100%
+}
+
+
+@media only screen and (max-width: 768px) {
+    .abtSection {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 10vw;
+    }
+
+    .hdAndText p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .abtSection .abtimg {
+        width: 50%;
+        position: relative;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+    }
+    
+    .abtSection .abtimg img {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .abtSection {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 1.8rem;
+    }
+
+    .hdAndText p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .abtSection .abtimg {
+        width: 50%;
+        position: relative;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+    }
+    
+    .abtSection .abtimg img {
+        width: 100%
+    }
+}
+
+.abtSection_1{
+    float: right;
+}
+
+.abtSection_1 .abtimg {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.abtSection_1 .abtimg img {
+    width: 100%
+}
+
+
+@media only screen and (max-width: 768px) {
+    .abtSection_1 {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 10vw;
+    }
+
+    .hdAndText p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .abtSection_1 .abtimg {
+        width: 100%;
+        position: relative;
+        top: 10%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .abtSection_1 .abtimg img {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .abtSection {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 1.8rem;
+    }
+
+    .hdAndText p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .abtSection .abtimg {
+        width: 50%;
+        position: relative;
+        top: 10%;        
+        transform: translate(-50%, -50%);
+    }
+    
+    .abtSection .abtimg img {
+        width: 100%
+    }
+}
