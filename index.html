@@ -17,22 +17,43 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <header>
+        
+    </header>
+
     <div class="first_view">
-        <img class="home_logo" src="img/logo.png" alt="">
+        <!-- <img class="home_logo" src="img/logo.png" alt=""> -->
     </div>
-    <section class="abtSection" id="abtSection">
-        <span class="abtimg"><div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/about-img.png" alt="about image"></div></span>
+
+
+    <div class="button desktop-only">
+        <div class="links"><a class="fa fa-twitter" target="_blank" href="https://twitter.com/"></a>
+            <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com//"></a>
+            <a class="fa fa-facebook" target="_blank" href="https://facebook.com//"></a>
+            <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/"></a></div>
+        <div class="overlay"><a>F<br>O<br>L<br>L<br>O<br>w<br><br>U<br>s</a></div>
+    </div>
+
+
+
+    <section class="abtSec" id="abtSec">
+        <span class="abtimg">
+            <div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/about-img.png" alt="about image">
+            </div>
+        </span>
         <div class="container-fluid" data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
-                <div class="col-md-6 hdAndText">
+                <div class="col-lg-6 hdAndText">
                     <h1 class="h1text" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">PASC</h1>
                     <div class="yellow_line"></div>
                     <p style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
@@ -41,30 +62,32 @@
                         off with 4 founding members and in such a short period, PASC has grown to a big student chapter
                         of nearly more than 300 ACM members. Appreciating our endeavour, PASC is awarded as BEST ACM
                         STUDENT CHAPTER in India, on February 2018.</p>
-                        <!-- <div class="a"><a href="about-us" class="pg_btn">About Us</a></div> -->
-                        <div class="row">
-                            <div class="col-12">
-                        <button class="btn abt_btn learn-more">
-                                <span class="circle">
-                                  <span class="icon arrow"></span>
-                                </span>
-                                <a href="#" class="button-text" style="text-decoration: none;">About Us</a>
-                              </button>
-                              </div>
-                              </div>
+                    <!-- <div class="a"><a href="about-us" class="pg_btn">About Us</a></div> -->
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <a class="abt_btn learn-more">
+                            <span class="circle">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <div class="button-text" style="text-decoration: none;">About Us</div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="abtSection_1" id="abtSection_1">
+    <section class="abtSec_1" id="abtSec_1">
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="abtimg"><div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/acmlogo.png" alt="about image"></div></div></div>
+                <div class="col-lg-5">
+                    <div class="abtimg">
+                        <div data-aos="fade-up" data-aos-duration="1000"><img class="" src="img/acmlogo.png"
+                                alt="about image"></div>
+                    </div>
+                </div>
 
-                <div class="col-md-8     hdAndText"  data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-7 hdAndText" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="h1text" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">About ACM</h1>
                     <div class="yellow_line"></div>
                     <p style="transform: translate3d(0px, 0px, 0px); opacity: 1;">Founded by Richard Hamming in 1947,
@@ -74,23 +97,166 @@
                         through strong leadership, promotion of the highest standards, and recognition of technical
                         excellence. ACM supports the professional growth of its members by providing opportunities for
                         life‐long learning, career development, and professional networking.</p>
-                        <button class="btn abt_btn learn-more">
-                                <span class="circle">
-                                  <span class="icon arrow"></span>
-                                </span>
-                                <a href="#" class="button-text" style="text-decoration: none;">ACM</a>
-                              </button>
-                              <div class="tabspace" style="display: inline;"> </div>
-                              <button class="btn abt_btn learn-more">
-                                    <span class="circle">
-                                      <span class="icon arrow"></span>
-                                    </span>
-                                    <a href="#" class="button-text" style="text-decoration: none;">ACM India</a>
-                                  </button>
+                    <div data-aos="fade-up">
+                        <a href="#" class="abt_btn learn-more">
+                            <span class="circle">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <div class="button-text" style="text-decoration: none;">ACM</div>
+                        </a>
+                        <div class="tabspace"> </div>
+                        <a href="#" class="abt_btn learn-more">
+                            <span class="circle">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <div class="button-text" style="text-decoration: none;">ACM India</div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+    <section class="eventSec">
+        <div class="container-fluid">
+            <div class="col-lg-6 hdAndText">
+                <h1 class="h1text" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">Events</h1>
+                <div class="yellow_line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-2" data-aos="fade-up" data-aos-duration="1000">
+                            <p class="vertical-text">
+                                U<br>P<br>C<br>O<br>M<br>I<br>N<br>G<br><br>E<br>V<br>E<br>N<br>T<br>S<br>
+                            </p>
+                        </div>
+                        <div class="col-5 align-items-center">
+                            <div class="square box1" id="box1" data-aos="zoom-in-up" data-aos-duration="3000">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span id="letter">W</span>
+                                    </div>
+
+                                </div>
+                                <div class="row pt-4 py-auto text-center">
+                                    <div class="col-12 px-auto mytext">
+                                        Web Development
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="square mt-5 box2" id="box2" data-aos="zoom-in-up" data-aos-duration="3000">
+                                <span id="letter">M</span>
+                                <div class="row pt-4 py-auto text-center">
+                                    <div class="col-12 px-auto mytext">
+                                        Machine Learning
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="square row2 box2" id="box3" data-aos="zoom-in-up" data-aos-duration="3000">
+                                <span id="letter">A</span>
+                                <div class="row pt-4 py-auto text-center">
+                                    <div class="col-12 px-auto mytext">
+                                        Machine Learning
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="square mt-5 box1" id="box4" data-aos="zoom-in-up" data-aos-duration="3000">
+                                <span id="letter">P</span>
+                                <div class="row pt-4 py-auto text-center">
+                                    <div class="col-12 px-auto mytext">
+                                        Machine Learning
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="show-content">
+                            <button type="button" class="close" id="close" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                        <div id="e0">
+                            <h1> default </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid libero at quaerat, adipisci rerum veritatis optio suscipit quo? Maxime voluptatem sunt placeat? Commodi, quam officiis optio molestiae non itaque</p>
+                           
+                        </div>
+                        <div id="e1">
+                            <h1> first </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid libero at quaerat, adipisci rerum veritatis optio suscipit quo? Maxime voluptatem sunt placeat? Commodi, quam officiis optio molestiae non itaque</p>
+                            <p class="date">23 August 2019</p>
+                        </div>
+                        <div id="e2">
+                            <h1> second </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid libero at quaerat, adipisci rerum veritatis optio suscipit quo? Maxime voluptatem sunt placeat? Commodi, quam officiis optio molestiae non itaque</p>
+                            <p class="date">23 August 2019</p>
+                        </div>
+                        <div id="e3">
+                            <h1> third </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid libero at quaerat, adipisci rerum veritatis optio suscipit quo? Maxime voluptatem sunt placeat? Commodi, quam officiis optio molestiae non itaque</p>
+                            <p class="date">23 August 2019</p>
+                        </div>
+                        <div id="e4">
+                            <h1> fourth </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid libero at quaerat, adipisci rerum veritatis optio suscipit quo? Maxime voluptatem sunt placeat? Commodi, quam officiis optio molestiae non itaque</p>
+                            <p class="date">23 August 2019</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="benefitSec">
+        <img class="desktop-only" src="img/logo.png" alt="">
+        <div class="container">
+            <div class="col-12">
+                <h1 class="benHeading" style="text-align: center;">Member Benefits of PASC</h1>
+                <div class="yellow_line desktop-only"></div>
+            </div>
+            <div class="benText">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                            <ul>
+                                    <li>3</li>
+                                    <li>4</li>
+                                </ul>
+                    </div>
+                    <div class="col-lg-4">
+                            <ul>
+                                    <li>5</li>
+                                    <li>6</li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br>
@@ -104,10 +270,43 @@
             // $(".home_content").fadeIn();
 
         }, 3000);
+
+
+        $(window).scroll(function () {
+            $(".button").css("opacity", 0 + $(window).scrollTop() / 1000);
+        });
+
+
+        $(document).ready(function () {
+            $("#box1").click(function () {
+                $("#e0,#e2,#e3,#e4").css({ "display": "none" });
+                $("#e1, #close").fadeIn(3000);
+            });
+            $("#box2").click(function () {
+                $("#e0,#e1,#e3,#e4").css({ "display": "none" });
+                $("#e2, #close").fadeIn(3000);
+            });
+            $("#box3").click(function () {
+                $("#e0,#e1,#e2,#e4").css({ "display": "none" });
+                $("#e3, #close").fadeIn(3000);
+            });
+            $("#box4").click(function () {
+                $("#e0,#e1,#e2,#e3").css({ "display": "none" });
+                $("#e4, #close").fadeIn(3000);
+            });
+            $("#close").click(function () {
+                $("#e1,#e2,#e3,#e4,#close").css({ "display": "none" });
+                $("#e0").fadeIn(3000);
+            });
+        });
     </script>
     <script>
-            AOS.init();
+        AOS.init();
     </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

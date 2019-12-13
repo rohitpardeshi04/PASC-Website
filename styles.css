@@ -13,11 +13,13 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    
 }
 
 body, html {
     font-family: "Open Sans",sans-serif;
+    overflow-x: hidden;
 }
 
 /* @custom-media --viewport-4 (min-width: 480px);
@@ -31,6 +33,7 @@ body, html {
     min-height: 100vh;
     background-color: #fff;;
 }
+
 
 .home_logo{
     width: 60%;
@@ -58,14 +61,14 @@ body, html {
 
 /* about section  */
 
-.abtSection {
+.abtSec {
     padding-top: 150px;
     padding-bottom: 175px;
     position: relative
 }
 
 .hdAndText{
-    padding-left: 100px; 
+    padding: 0 100px; 
 }
 
 .hdAndText .h1text {
@@ -102,7 +105,7 @@ body, html {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.abtSection .abtimg {
+.abtSec .abtimg {
     width: 50%;
     position: absolute;
     top: 60%;
@@ -110,13 +113,45 @@ body, html {
     transform: translate(0%, -50%);
 }
 
-.abtSection .abtimg img {
+.abtSec .abtimg img {
     width: 100%
 }
 
+@media only screen and (max-width: 992px) {
+    .abtSec {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 10vw;
+    }
+
+    .hdAndText p {
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .abtSec .abtimg {
+        width: 50%;
+        position: relative;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+    }
+    
+    .abtSec .abtimg img {
+        width: 100%
+    }
+}
 
 @media only screen and (max-width: 768px) {
-    .abtSection {
+    .abtSec {
         padding-top: 75px;
         padding-bottom: 125px;
         
@@ -135,7 +170,7 @@ body, html {
         text-align: center;
     }
 
-    .abtSection .abtimg {
+    .abtSec .abtimg {
         width: 50%;
         position: relative;
         top: 50%;
@@ -143,13 +178,13 @@ body, html {
         transform: translate(0%, -50%);
     }
     
-    .abtSection .abtimg img {
+    .abtSec .abtimg img {
         width: 100%
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .abtSection {
+    .abtSec {
         padding-top: 75px;
         padding-bottom: 125px;
         
@@ -167,7 +202,7 @@ body, html {
         font-size: 1rem;
         text-align: center;
     }
-    .abtSection .abtimg {
+    .abtSec .abtimg {
         width: 50%;
         position: relative;
         top: 50%;
@@ -175,13 +210,13 @@ body, html {
         transform: translate(0%, -50%);
     }
     
-    .abtSection .abtimg img {
+    .abtSec .abtimg img {
         width: 100%
     }
 }
 
 
-.abtSection_1 .abtimg {
+.abtSec_1 .abtimg {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -189,13 +224,14 @@ body, html {
     transform: translate(-50%, -50%);    
 }
 
-.abtSection_1 .abtimg img {
-    width: 100%
+.abtSec_1 .abtimg img {
+    width: 100%;
+    padding-left: 10%;
 }
 
 
-@media only screen and (max-width: 768px) {
-    .abtSection_1 {
+@media only screen and (max-width: 1000px) {
+    .abtSec_1 {
         padding-top: 75px;
         padding-bottom: 125px;
         
@@ -214,20 +250,52 @@ body, html {
         text-align: center;
     }
 
-    .abtSection_1 .abtimg {
+    .abtSec_1 .abtimg {
         width: 100%;
         position: relative;
         top: 10%;
         transform: translate(-50%, -50%);
     }
     
-    .abtSection_1 .abtimg img {
+    .abtSec_1 .abtimg img {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .abtSec_1 {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        
+    }
+
+    .hdAndText{
+        padding: 20px;
+    }
+    
+    .hdAndText .h1text {
+        font-size: 10vw;
+    }
+
+    .hdAndText p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .abtSec_1 .abtimg {
+        width: 100%;
+        position: relative;
+        top: 10%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .abtSec_1 .abtimg img {
         width: 100%
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .abtSection {
+    .abtSec {
         padding-top: 75px;
         padding-bottom: 125px;
         
@@ -244,15 +312,16 @@ body, html {
     .hdAndText p {
         font-size: 1rem;
         text-align: center;
+        margin-bottom: 25px;
     }
-    .abtSection .abtimg {
+    .abtSec .abtimg {
         width: 50%;
         position: relative;
         top: 10%;        
         transform: translate(-50%, -50%);
     }
     
-    .abtSection .abtimg img {
+    .abtSec .abtimg img {
         width: 100%
     }
 }
@@ -271,7 +340,7 @@ body, html {
     font-family: inherit;
 }
 .abt_btn.learn-more {
-    width: 12rem;
+    width: 10rem;
     height: auto;
 }
 .abt_btn.learn-more .circle {
@@ -339,17 +408,387 @@ body, html {
 
 .tabspace{
     margin: 7vw;
+    display: inline;
 }
 
 @media only screen and (max-width: 480px) {
     .abt_btn{
+        margin-top: 6%;
         left: 50%;
-        transform: translate(0, -50%);
+        transform: translate(-50%, -50%);
     }
     .abt_btn.learn-more .circle {
+        width: 100%;
+        height: 2rem;
+    }
+    .abt_btn.learn-more .button-text {
+        color: #fff ;
+        font-size: 1rem;
+        padding: 0.25rem 0;
+        font-weight: 500;
+    }
+    .tabspace{
+        display: block;
+    }
+}
+
+
+
+
+/* cards */
+.cf1 {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#domains {
+    margin-top: 50px;
+}
+
+.jumbotron, .probootstrap-footer {
+    background-color: rgba(18, 19, 47);
+    color: floralwhite;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.square{
+    margin: 2% 3%;
+    
+   background-color: white; 
+    widows: 18vw;
+    height: 18vw;
+    border-radius: 20%;
+	padding-bottom: 30%;
+	
+	transition: background 0.6s; 
+	--webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    margin-right: 0;
+    box-shadow: 0 15px 9px 0 rgba(0,0,0,.09);
+    
+}
+
+.row3{
+    margin-top: 200px;
+}
+
+.row2{
+    margin-top: 100px;;
+
+}
+
+.box1{
+    /* border: 6px solid #fdb811; */
+    animation: blink 1s infinite;
+}
+
+
+.box1:hover{
+    /* animation: hidden; */
+    background: #fdb811;
+    /* border: 6px solid #fff; */
+}
+
+.box2{
+    border: 6px solid #245991;
+    animation: blink 1s infinite;
+}
+
+
+.box2:hover{
+    /* animation: none; */
+    background: #245991;
+    /* border: 6px solid #fff; */
+}
+
+.box3{
+    background-color: #fdb811;
+    box-shadow: 0 14px 14px -3px rgba(253,184,17,.42);
+}
+
+#letter{
+    padding: 0 10% 0 80%;
+    color: #b1cfef;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.mytext{
+    color: #638db9;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+
+}
+
+.eventSec{
+    padding-top: 150px;
+    padding-bottom: 175px;
+    position: relative
+}
+
+.vertical-text{
+    float: right;
+    font-size: 1.2rem;
+    color: #003a78;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .square{
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .mytext{
+        font-size: 1rem;;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .square{
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .mytext{
+        font-size: 1rem;;
+    }}
+
+@media only screen and (max-width: 480px){
+    .square{
+        height: 30%;
+        width:100%;
+    }
+
+    .mytext{
+        font-size: 1rem;;
+    }
+}
+
+/* Side button  */
+
+.button {
+	width: 80px;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: fixed;
+	left: 2%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	justify-content: space-evenly;
+	background: #245991;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+    color: #ffffff;
+    z-index: 999;
+    opacity: 0;
+}
+
+.button .links a {
+	
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    
+}
+
+.button .links a:hover {
+	color: #fdb811;
+	transition-timing-function: ease-in-out !important;
+    transition-delay: 1ms !important;
+    text-decoration: none;
+}
+
+
+.button .overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80px;
+    height: 350px;
+    z-index: 99;
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	background: #fdb811;
+	transition: 1s cubic-bezier(0.89, 0.03, 0.06, 1.5);
+}
+
+.button .overlay a {
+	
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      
+}
+
+.button:hover .links a {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.button:hover .overlay {
+	transform: translateX(-100px);
+}
+
+@keyframes beat {
+	to {
+		transform: scale(1.4);
+	}
+}
+
+@media only screen and (max-width: 992px){
+    .desktop-only{
         display: none;
     }
-    .abt_btn:hover .button-text {
-        color: #282936 ;
+}
+#e1, #e2, #e3, #e4, #close{
+    display: none;
+}
+
+.show-content{
+    padding: 0 100px; 
+}
+
+.show-content h1 {
+    font-size: 3rem;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-align: center;
+    /* margin-bottom: 50px */
+}
+
+.show-content p {
+    font-size: 1.5rem;
+    color: #363636;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin: 50px 0;    
+    max-width: 100%;
+    text-align: center;    
+}
+
+.show-content .date{
+    font-size: 1.2rem;
+    color: #363636;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin: 50px 0;    
+    max-width: 100%;
+    text-align: right; 
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .show-content{
+        padding: 20px;
     }
+    
+    .show-content h1 {
+        font-size: 2rem;
+    }    
+    .show-content p {
+        font-size: 2vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .show-content{
+        padding: 20px;
+    }
+    
+    
+    .show-content p {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .show-content{
+        padding: 20px;
+    }
+    
+    
+    .show-content p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+/* benefit  */
+
+.benefitSec{
+    background-color: #003a78;
+    position: relative;
+    height: 100vh;
+    padding: 100px 0;
+    width: 102vw;
+}
+
+@media only screen and (max-width: 992px){
+    .benefitSec{
+        height: auto;
+    }
+}
+
+.benefitSec img{
+    z-index: 1;
+    top: -100px;
+    opacity: .05;
+    width: 100%;
+    position: absolute;
+    align-self: center;
+}
+
+.benefitSec .yellow_line{
+    width: 40rem;
+    margin-top: -100px;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+
+.benHeading{
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 100px;
+    font-weight: 600;
+    position: relative;
+    z-index: 5;
+}
+
+.benText{
+    color: #fff;
+}
+
+.benText li{
+    margin: 20px;
 }
