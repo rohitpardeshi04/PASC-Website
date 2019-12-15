@@ -27,12 +27,169 @@ body, html {
 @custom-media --viewport-9 (min-width: 992px);
 @custom-media --viewport-12 (min-width: 1200px); */
 
-
-
 .first_view{
     min-height: 100vh;
-    background-color: #fff;;
 }
+
+.first_view .bg-gra{
+    height: 100vh;    
+    width: 100vw;
+    /* background-color: #fff;; */
+    /* background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%); */
+    background: linear-gradient(-330deg, #0ab1f0 0%, #1977d4 51%, #2b32b2 100%);
+    transform: skewY( -15deg );
+    margin-bottom: 20%;
+    top: -200px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.rings{
+    width: 110%;
+    height: 110%;
+    position: relative;
+    top: -200px;
+}
+
+.tech-circle-container:nth-child(1) {
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+}
+
+.tech-circle-container:nth-child(1) .tech-circle {
+    height: 100%;
+    width: 100%;
+    background: url('PNG/1234.png');
+    background-size: cover;
+    /* animation: rotateright 10s linear infinite; */
+}
+
+
+
+
+.tech-circle-container:nth-child(2) {
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+}
+
+.tech-circle-container:nth-child(2) .tech-circle {
+    height: 100%;
+    width: 100%;
+    background: url('PNG/123.png');
+    background-size: cover;
+    /* animation: rotateleft 10s linear infinite; */
+}
+
+
+.tech-circle-container:nth-child(3) {
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+}
+
+.tech-circle-container:nth-child(3) .tech-circle {
+    height: 100%;
+    width: 100%;
+    background: url('PNG/456.png');
+    background-size: cover;
+    /* animation: rotateright 13s linear infinite; */
+}
+
+
+
+ .tech-circle-container:nth-child(4) {
+    height: 19vh;
+    width: 30vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+}
+
+.tech-circle-container:nth-child(4) .tech-circle {
+    height: 100%;
+    width: 100%;
+    background: url('svg/Group\ 81.svg');
+    background-size: cover;
+    /* animation: rotateright 4s linear infinite; */
+} 
+
+@-webkit-keyframes rotateright {
+    50% {
+        /*-moz-transform: rotate(180deg);*/
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /*-moz-transform: rotate(360deg);*/
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateright {
+    50% {
+        /*-moz-transform: rotate(180deg);*/
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /*-moz-transform: rotate(360deg);*/
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotateleft {
+    50% {
+        /*-moz-transform: rotate(-180deg);*/
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        /*-moz-transform: rotate(-360deg);*/
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotateleft {
+    50% {
+        /*-moz-transform: rotate(-180deg);*/
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        /*-moz-transform: rotate(-360deg);*/
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
 
 
 .home_logo{
@@ -76,18 +233,17 @@ body, html {
     color: #003a78;
     line-height: 1.2;
     letter-spacing: 0;
-    font-weight: 700;
+    font-weight: 550;
     /* margin-bottom: 50px */
 }
 
 .hdAndText p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #363636;
-    line-height: 1.8;
+    line-height: 2;
     letter-spacing: 0;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
     max-width: 100%;
-    
 }
 
 .yellow_line{
@@ -120,12 +276,12 @@ body, html {
 @media only screen and (max-width: 992px) {
     .abtSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -153,12 +309,12 @@ body, html {
 @media only screen and (max-width: 768px) {
     .abtSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -186,12 +342,12 @@ body, html {
 @media only screen and (max-width: 480px) {
     .abtSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -216,7 +372,7 @@ body, html {
 }
 
 
-.abtSec_1 .abtimg {
+.rightSec .rightimg {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -224,21 +380,21 @@ body, html {
     transform: translate(-50%, -50%);    
 }
 
-.abtSec_1 .abtimg img {
+.rightSec .rightimg img {
     width: 100%;
-    padding-left: 10%;
+    padding: 10%;
 }
 
 
 @media only screen and (max-width: 1000px) {
-    .abtSec_1 {
+    .rightSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -250,27 +406,27 @@ body, html {
         text-align: center;
     }
 
-    .abtSec_1 .abtimg {
+    .rightSec .rightimg {
         width: 100%;
         position: relative;
         top: 10%;
         transform: translate(-50%, -50%);
     }
     
-    .abtSec_1 .abtimg img {
+    .rightSec .rightimg img {
         width: 100%
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .abtSec_1 {
+    .rightSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -282,14 +438,14 @@ body, html {
         text-align: center;
     }
 
-    .abtSec_1 .abtimg {
+    .rightSec .abtimg {
         width: 100%;
         position: relative;
         top: 10%;
         transform: translate(-50%, -50%);
     }
     
-    .abtSec_1 .abtimg img {
+    .rightSec .abtimg img {
         width: 100%
     }
 }
@@ -297,12 +453,12 @@ body, html {
 @media only screen and (max-width: 480px) {
     .abtSec {
         padding-top: 75px;
-        padding-bottom: 125px;
+        padding-bottom: 75px;
         
     }
 
     .hdAndText{
-        padding: 20px;
+        padding: 0 20px;
     }
     
     .hdAndText .h1text {
@@ -470,7 +626,7 @@ body, html {
     -moz-transition: background 0.6s;
     margin-right: 0;
     box-shadow: 0 15px 9px 0 rgba(0,0,0,.09);
-    
+    cursor: pointer;   
 }
 
 .row3{
@@ -512,10 +668,20 @@ body, html {
 }
 
 #letter{
-    padding: 0 10% 0 80%;
+    padding: 0 10% 0 10%;
     color: #b1cfef;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 1200px){
+    .square{
+        padding: 30px;
+    }
 }
 
 .mytext{
@@ -541,8 +707,23 @@ body, html {
     font-weight: 700;
 }
 
+
+.know-more{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.know-more p{
+    text-align: center;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 992px) {
-    
+   .eventSec {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    }
     .square{
         height: 30vw;
         width: 30vw;
@@ -564,6 +745,7 @@ body, html {
     }}
 
 @media only screen and (max-width: 480px){
+   
     .square{
         height: 30%;
         width:100%;
@@ -577,7 +759,7 @@ body, html {
 /* Side button  */
 
 .button {
-	width: 80px;
+	width: 60px;
 	height: 250px;
 	display: flex;
 	align-items: center;
@@ -610,7 +792,7 @@ body, html {
 }
 
 .button .links a:hover {
-	color: #fdb811;
+	color: #;
 	transition-timing-function: ease-in-out !important;
     transition-delay: 1ms !important;
     text-decoration: none;
@@ -623,8 +805,8 @@ body, html {
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 80px;
-    height: 350px;
+	width: 60px;
+    height: 250px;
     z-index: 99;
 	position: absolute;
 	top: 0em;
@@ -750,6 +932,7 @@ body, html {
     height: 100vh;
     padding: 100px 0;
     width: 102vw;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 992px){

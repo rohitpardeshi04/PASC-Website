@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="734.056" height="668.5" viewBox="0 0 734.056 668.5">
+  <defs>
+    <filter id="Ellipse_22" x="78.5" y="0" width="566" height="566" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_10" x="0" y="10.5" width="260" height="260" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_16" x="246" y="438.5" width="230" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Path_154" data-name="Path 154" d="M43.15,21.685,31.244,33.6,43.15,45.506H29.545L17.634,33.6l11.91-11.91ZM29.545,1.276,7.431,23.389l6.8,6.8L43.15,1.276Z" transform="translate(-7.431 -1.276)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.197" y1="1.193" x2="0.699" y2="0.448" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a237e" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1a237e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Path_37" x="484.056" y="32.147" width="250" height="250" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_83" data-name="Group 83" transform="translate(-60 -141.5)">
+    <g transform="matrix(1, 0, 0, 1, 60, 141.5)" filter="url(#Ellipse_22)">
+      <g id="Ellipse_22-2" data-name="Ellipse 22" transform="translate(86 7.5)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="275.5" cy="275.5" r="275.5" stroke="none"/>
+        <circle cx="275.5" cy="275.5" r="274" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(132.337 224.243)">
+      <g transform="matrix(1, 0, 0, 1, -72.34, -82.74)" filter="url(#Ellipse_10)">
+        <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="55" cy="55" r="55" transform="translate(72 82.5)" fill="#fff"/>
+      </g>
+      <g id="android-logo" transform="translate(24.911 18.663)">
+        <g id="Group_5" data-name="Group 5" transform="translate(0 0)">
+          <path id="Path_6" data-name="Path 6" d="M46.958,179.141a4.257,4.257,0,0,0-3.128,1.285,4.208,4.208,0,0,0-1.286,3.085V201.94a4.389,4.389,0,0,0,4.414,4.414,4.191,4.191,0,0,0,3.108-1.286,4.3,4.3,0,0,0,1.264-3.129V183.512a4.389,4.389,0,0,0-4.372-4.371Z" transform="translate(-42.544 -156.042)" fill="#57db52"/>
+          <path id="Path_7" data-name="Path 7" d="M152.22,6.557,155.263.943a.564.564,0,0,0-.214-.857.593.593,0,0,0-.857.256L151.107,6a21.5,21.5,0,0,0-17.228,0L130.793.343a.594.594,0,0,0-.857-.256.564.564,0,0,0-.214.857l3.043,5.613a18.79,18.79,0,0,0-7.371,6.579,16.616,16.616,0,0,0-2.743,9.236h39.64a16.621,16.621,0,0,0-2.743-9.236A18.87,18.87,0,0,0,152.22,6.557Zm-17.592,8.164a1.606,1.606,0,0,1-1.179.494,1.534,1.534,0,0,1-1.157-.494,1.709,1.709,0,0,1,0-2.356,1.539,1.539,0,0,1,1.157-.492,1.666,1.666,0,0,1,1.179,2.849Zm18.063,0a1.537,1.537,0,0,1-1.157.494,1.671,1.671,0,0,1,0-3.343,1.54,1.54,0,0,1,1.157.492,1.709,1.709,0,0,1,0,2.356Z" transform="translate(-112.322 0)" fill="#57db52"/>
+          <path id="Path_8" data-name="Path 8" d="M123.971,213.992a4.68,4.68,0,0,0,4.713,4.714h3.171l.043,9.729a4.259,4.259,0,0,0,1.285,3.129,4.209,4.209,0,0,0,3.085,1.286,4.389,4.389,0,0,0,4.414-4.414v-9.728H146.6v9.728a4.414,4.414,0,1,0,8.827,0v-9.728h3.214a4.68,4.68,0,0,0,4.671-4.713V185.45H123.971Z" transform="translate(-113.472 -161.538)" fill="#57db52"/>
+          <path id="Path_9" data-name="Path 9" d="M446.747,179.141a4.247,4.247,0,0,0-3.086,1.264,4.191,4.191,0,0,0-1.285,3.107V201.94a4.256,4.256,0,0,0,1.285,3.129,4.209,4.209,0,0,0,3.086,1.286,4.389,4.389,0,0,0,4.414-4.414V183.512a4.19,4.19,0,0,0-1.285-3.107A4.3,4.3,0,0,0,446.747,179.141Z" transform="translate(-390.821 -156.042)" fill="#57db52"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_68" data-name="Group 68" transform="translate(365.015 632.427)">
+      <g id="Group_75" data-name="Group 75" transform="translate(12.985 19.573)">
+        <g transform="matrix(1, 0, 0, 1, -318, -510.5)" filter="url(#Ellipse_16)">
+          <circle id="Ellipse_16-2" data-name="Ellipse 16" cx="40" cy="40" r="40" transform="translate(318 510.5)" fill="#fff"/>
+        </g>
+        <g id="flutterio-icon" transform="translate(19.731 17.86)">
+          <g id="Group_63" data-name="Group 63" clip-path="url(#clip-path)">
+            <path id="Path_153" data-name="Path 153" d="M22.2,42.72l6.8,6.8L47.713,30.81H34.108Z" transform="translate(-11.995 -10.4)" fill="#39cefd"/>
+          </g>
+          <g id="Group_64" data-name="Group 64" clip-path="url(#clip-path)">
+            <path id="Path_155" data-name="Path 155" d="M29.545,1.276H43.15L14.236,30.193l-6.8-6.8Z" transform="translate(-7.431 -1.276)" fill="#39cefd"/>
+          </g>
+          <g id="Group_65" data-name="Group 65" clip-path="url(#clip-path)">
+            <path id="Path_157" data-name="Path 157" d="M32.042,54.85l5.106,5.1H50.753L38.847,48.045Z" transform="translate(-15.035 -15.725)" fill="#03569b"/>
+          </g>
+          <g id="Group_66" data-name="Group 66" clip-path="url(#clip-path)">
+            <path id="Path_159" data-name="Path 159" d="M42.134,51.354l-3.287-3.309-6.8,6.8Z" transform="translate(-15.035 -15.725)" fill="url(#linear-gradient)"/>
+          </g>
+          <g id="Group_67" data-name="Group 67" clip-path="url(#clip-path)">
+            <path id="Path_161" data-name="Path 161" d="M22.2,45l6.8-6.8L35.811,45l-6.805,6.8Z" transform="translate(-11.994 -12.682)" fill="#16b9fd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_70" data-name="Group 70" transform="translate(616.056 245.647)">
+      <g id="Group_69" data-name="Group 69" transform="translate(0 0)">
+        <g id="Group_21" data-name="Group 21" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -556.06, -104.15)" filter="url(#Path_37)">
+            <path id="Path_37-2" data-name="Path 37" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(556.06 104.15)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="layer1" transform="translate(21.033 20)">
+        <g id="g4550" transform="translate(0 0)">
+          <path id="path4508" d="M113.5,182v10.265l17.778,10.265V192.262ZM77.942,192.262v10.265l8.889,5.131V197.395Zm26.667,5.132-8.889,5.132v30.792l8.889,5.132V217.923l8.89,5.132V212.79l-8.89-5.132Z" transform="translate(-77.942 -171.734)" fill="#e55b2d"/>
+          <path id="path4491" d="M108.939,182l-26.668,15.4v10.264l17.778-10.264v10.264l8.89-5.131Zm26.668,5.132-8.89,5.132v10.265l8.89-5.132Zm-17.779,20.528-8.889,5.132v10.265l8.889-5.132Zm-8.889,15.4-8.89-5.132v20.528l8.89-5.132Z" transform="translate(-73.382 -171.734)" fill="#ed8e24"/>
+          <path id="path4506" d="M113.5,177,77.942,197.526l8.889,5.132,26.668-15.4,17.778,10.265,8.89-5.132Zm0,30.793-8.89,5.131,8.89,5.132,8.889-5.132Z" transform="translate(-77.942 -176.998)" fill="#f8bf3c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
